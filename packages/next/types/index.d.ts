@@ -127,6 +127,7 @@ export type GetServerSidePropsContext<
   query: ParsedUrlQuery
   preview?: boolean
   previewData?: any
+  pathname: string
   resolvedUrl: string
   locale?: string
   locales?: string[]

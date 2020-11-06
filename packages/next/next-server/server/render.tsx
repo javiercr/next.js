@@ -753,6 +753,7 @@ export async function renderToHTML(
           req,
           res,
           query,
+          pathname,
           resolvedUrl: renderOpts.resolvedUrl as string,
           ...(pageIsDynamic ? { params: params as ParsedUrlQuery } : undefined),
           ...(previewData !== false
